@@ -1,0 +1,62 @@
+body {
+  background-color: #f5eec2;
+}
+
+.headIntro h1 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 60px;
+  font-style:italic;
+  text-shadow: grey 1px 0 10px;
+  color: #416a59;
+  text-align: center;
+  text-decoration: underline;
+  
+}
+.mainImg {
+  background-image: url(https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80);
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.mainImg img {
+  height: 300px;
+  width: 800px;
+}
+
+
+.aboutSection h2 {
+  font-size: 40px;
+  color: #416a59;
+  font-style: italic;
+  text-align: center;
+
+}
+
+.aboutSection p {
+  text-align: center;
+  margin: 10px 200px;
+}
+
+.aboutSection p span {
+  color: red;
+}
+
+.linkSection {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.linkSection a {
+  background-color: #416a59;
+  color: white;
+  padding: 7px 7px;
+  border-radius: 5px;
+  border: 1px;
+  border-color: black; 
+}
+
+.linkSection a:hover {
+  background-color: #39395f;
+}
+
